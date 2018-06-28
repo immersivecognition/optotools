@@ -2,10 +2,21 @@
 % Please edit documentation in R/ndi_to_csv.R
 \name{ndi_to_csv}
 \alias{ndi_to_csv}
-\title{Reads and converts an Optotrak file from given filepath and re-saves as a CSV file}
+\title{Reads and converts an Optotrak file from given filepath and re-saves as a CSV file.}
 \usage{
-ndi_to_csv(ndi_path, output_path, sep = ",")
+ndi_to_csv(ndi_path, output_path, sep = ",", row.names = FALSE, ...)
+}
+\arguments{
+\item{ndi_path}{string Location of the file to read.}
+
+\item{output_path}{string Location of the file to write.}
+
+\item{sep}{The field separator string. Values within each row of the dataframe are separated by this string.}
+
+\item{row.names}{Either a logical value indicating whether the row names of x are to be written along with x, or a character vector of row names to be written.}
+
+\item{...}{Additional parameters passed to write.table}
 }
 \description{
-Reads and converts an Optotrak file from given filepath and re-saves as a CSV file
+Reads and converts an Optotrak file from given filepath and re-saves as a CSV file.
 }
