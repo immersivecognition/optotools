@@ -1,0 +1,11 @@
+Package: optotools
+Type: Package
+Title: Set Of Tools For Managing Files From NDI Optotrak System
+Version: 0.1.0
+Author: Jack Brookes
+Maintainer: Jack Brookes <jbrookes187@gmail.com>
+Description: Includes tools for managing files read by an NDI Optotrak system. Currently supports reading files.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
