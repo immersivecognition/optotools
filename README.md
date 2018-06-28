@@ -38,7 +38,7 @@ devtools::install_github("CAPLeeds/optotools")
 ```
 
 
-### Converting Optotrak files into a CSV
+### Converting an Optotrak file into a CSV
 
 ```r
 > library(optotools)
