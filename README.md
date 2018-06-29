@@ -25,7 +25,7 @@ devtools::install_github("CAPLeeds/optotools")
 > opto_data$items
 [1] 3
 
-# to access the data, access the df object or convert using as.data.frame
+# to access the data, access the $df object or convert using as.data.frame
 > df <- as.data.frame(opto_data)
 > head(df)
        m1_x      m1_y      m1_z      m2_x      m2_y      m2_z      m3_x      m3_y      m3_z
