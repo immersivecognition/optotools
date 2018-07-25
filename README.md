@@ -6,7 +6,7 @@ An R package for reading and converting NDI Optotrak files
 
 ```r
 install.packages("devtools")
-devtools::install_github("CAPLeeds/optotools")
+devtools::install_github("immersivecognition/optotools")
 ```
 
 ## Example usage
